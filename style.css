@@ -1,0 +1,4209 @@
+body {
+  padding: 30px;
+  display: flex;
+  /* justify-content: center */
+  line-height: 28px;
+  letter-spacing: 1px;
+  border-radius: 10px;
+  color: #FFFF6F;
+  background-color: #021b93;
+}
+
+.margin {
+  display: flex;
+  max-width: 1200px;
+  border: solid 5px #FFFF6F;
+  padding: 90px;
+  position: absolute;
+}
+
+hr {
+  color: #d7e822;
+}
+
+.left {
+  flex: 10;
+}
+
+.right {
+  flex: 10;
+}
+
+.left, .right {
+  padding: 180px;
+}
+
+.left {
+  padding-right: 100px;
+}
+
+.right {
+  padding-left: 50px;
+  padding-top: 200px;
+}
+
+h1 {
+  font-size: 90px;
+  font-size-display: flex;
+  font-size-margin-left: 10px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h5 {
+  margin-left: 10px;
+  font-size: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #d7e822;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  color: #d7e822;
+}
+
+h3 {
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 400;
+  color: #d7e822;
+}
+h3::before {
+  content: "";
+  display: flex;
+  width: px;
+  height: 8px;
+  background-color: #f5ffb7;
+  margin-right: 10px;
+  border-radius: 100px;
+}
+h3::after {
+  content: "";
+  display: flex;
+  width: px;
+  height: 8px;
+  background-color: #f5ffb7;
+  margin-left: 0px;
+  border-radius: 100px;
+}
+
+h4 {
+  margin: 40;
+  margin-top: 40px;
+  opacity: 0.8;
+  font-weight: 400;
+  color: #d7e822;
+  font-size: 0.8cm;
+}
+
+.decoration {
+  width: 120px;
+  height: 900px;
+  background: linear-gradient(to bottom right, #0080FF, #FFFF6F);
+  position: absolute;
+  right: 0px;
+  top: px;
+  border-radius: 50px 30px 10px 50px;
+}
+
+.listExperience > li {
+  display: flex;
+  margin-bottom: 10px;
+}
+.listExperience li ul {
+  padding-left: 10px;
+  margin-left: 10px;
+  border-left: solid 4px;
+}
+
+.circle {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(203, 231, 242, 0.4);
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.p90, .p180, .p270, .p360 {
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  left: 50%;
+  top: 0;
+  background-color: #FFFF6F;
+}
+
+.p180 {
+  left: 50%;
+  top: 50%;
+}
+
+.p270 {
+  left: 0;
+  top: 50%;
+}
+
+.p360 {
+  left: 0;
+  top: 0;
+}
+
+.circle::after {
+  content: "";
+  display: block;
+  background-color: #2337ea;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.listskill {
+  display: flex;
+  flex-wrap: wrap;
+}
+.listskill li {
+  width: 25%;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.listProgram .bar {
+  width: 70%;
+  height: 10px;
+  border: solid 2px #177e89;
+  border-radius: 5px;
+}
+.listProgram li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.value {
+  height: 100%;
+  width: 50%;
+  background-color: #FFFF6F;
+}
+
+.p10 {
+  width: 10%;
+}
+
+.p20 {
+  width: 20%;
+}
+
+.p30 {
+  width: 30%;
+}
+
+.p40 {
+  width: 40%;
+}
+
+.p50 {
+  width: 50%;
+}
+
+.p60 {
+  width: 60%;
+}
+
+.p70 {
+  width: 70%;
+}
+
+.p80 {
+  width: 80%;
+}
+
+.p90 {
+  width: 90%;
+}
+
+.p100 {
+  width: 100%;
+}
+
+hr {
+  border: none;
+  border-bottom: solid 4px #5151A2;
+  width: 40%;
+  margin-left: 0;
+}
+
+.btn {
+  border: solid 3px #f5ffb7;
+  padding: 5px 20px;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.fill {
+  background-color: #2337ea;
+}
+
+.pic {
+  height: 600px;
+  width: 400px;
+  background-image: url(https://i.imgur.com/pYzxUfk.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 100px;
+  left: 50px;
+  border-radius: 70px;
+  position: absolute;
+}
+
+.pic:hover {
+  box-shadow: 30px 10px 40px rgba(0, 0, 0, 0.7);
+  transform: translate(20px, 0px);
+}
+
+.present1 {
+  width: 220px;
+  height: 60px;
+  background-color: #e5ce4b;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-8deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present1 .vribbon, .present1 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present1 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a030cc;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present1 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a030cc;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present1 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present2 {
+  width: 220px;
+  height: 54px;
+  background-color: #a59d9d;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-17deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present2 .vribbon, .present2 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present2 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present2 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present2 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present3 {
+  width: 220px;
+  height: 76px;
+  background-color: #e5ce4b;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-15deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present3 .vribbon, .present3 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present3 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #4163ea;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present3 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #4163ea;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present3 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present4 {
+  width: 220px;
+  height: 55px;
+  background-color: #a59d9d;
+  margin: 1px;
+  position: relative;
+  transform: rotate(5deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present4 .vribbon, .present4 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present4 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present4 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present4 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present5 {
+  width: 220px;
+  height: 95px;
+  background-color: #a030cc;
+  margin: 1px;
+  position: relative;
+  transform: rotate(0deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present5 .vribbon, .present5 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present5 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present5 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present5 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present6 {
+  width: 220px;
+  height: 71px;
+  background-color: #f76fc3;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-6deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present6 .vribbon, .present6 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present6 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #4163ea;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present6 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #4163ea;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present6 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present7 {
+  width: 220px;
+  height: 58px;
+  background-color: #e5ce4b;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-11deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present7 .vribbon, .present7 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present7 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present7 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present7 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present8 {
+  width: 220px;
+  height: 82px;
+  background-color: #a030cc;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-10deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present8 .vribbon, .present8 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present8 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a030cc;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present8 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a030cc;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present8 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present9 {
+  width: 220px;
+  height: 52px;
+  background-color: #a59d9d;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-5deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present9 .vribbon, .present9 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present9 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #dd9933;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present9 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #dd9933;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present9 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present10 {
+  width: 220px;
+  height: 96px;
+  background-color: #a030cc;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-4deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present10 .vribbon, .present10 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present10 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #4163ea;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present10 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #4163ea;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present10 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present11 {
+  width: 220px;
+  height: 61px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-17deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present11 .vribbon, .present11 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present11 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #4163ea;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present11 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #4163ea;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present11 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present12 {
+  width: 220px;
+  height: 84px;
+  background-color: #f76fc3;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-19deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present12 .vribbon, .present12 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present12 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #4163ea;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present12 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #4163ea;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present12 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present13 {
+  width: 220px;
+  height: 52px;
+  background-color: #a030cc;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-16deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present13 .vribbon, .present13 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present13 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present13 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present13 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present14 {
+  width: 220px;
+  height: 54px;
+  background-color: #f76fc3;
+  margin: 1px;
+  position: relative;
+  transform: rotate(9deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present14 .vribbon, .present14 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present14 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a030cc;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present14 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a030cc;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present14 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present15 {
+  width: 220px;
+  height: 99px;
+  background-color: #a59d9d;
+  margin: 1px;
+  position: relative;
+  transform: rotate(4deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present15 .vribbon, .present15 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present15 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present15 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present15 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present16 {
+  width: 220px;
+  height: 69px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-18deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present16 .vribbon, .present16 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present16 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #f76fc3;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present16 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #f76fc3;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present16 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present17 {
+  width: 220px;
+  height: 55px;
+  background-color: #f76fc3;
+  margin: 1px;
+  position: relative;
+  transform: rotate(10deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present17 .vribbon, .present17 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present17 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a030cc;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present17 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a030cc;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present17 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present18 {
+  width: 220px;
+  height: 89px;
+  background-color: #f76fc3;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-18deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present18 .vribbon, .present18 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present18 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #f76fc3;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present18 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #f76fc3;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present18 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present19 {
+  width: 220px;
+  height: 72px;
+  background-color: #e5ce4b;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-11deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present19 .vribbon, .present19 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present19 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present19 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present19 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present20 {
+  width: 220px;
+  height: 78px;
+  background-color: #f76fc3;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-4deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present20 .vribbon, .present20 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present20 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #4163ea;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present20 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #4163ea;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present20 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present21 {
+  width: 220px;
+  height: 93px;
+  background-color: #f76fc3;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-2deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present21 .vribbon, .present21 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present21 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #f76fc3;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present21 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #f76fc3;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present21 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present22 {
+  width: 220px;
+  height: 63px;
+  background-color: #f76fc3;
+  margin: 1px;
+  position: relative;
+  transform: rotate(8deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present22 .vribbon, .present22 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present22 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #dd9933;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present22 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #dd9933;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present22 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present23 {
+  width: 220px;
+  height: 98px;
+  background-color: #a59d9d;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-19deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present23 .vribbon, .present23 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present23 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #4163ea;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present23 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #4163ea;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present23 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present24 {
+  width: 220px;
+  height: 77px;
+  background-color: #f76fc3;
+  margin: 1px;
+  position: relative;
+  transform: rotate(9deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present24 .vribbon, .present24 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present24 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #4163ea;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present24 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #4163ea;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present24 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present25 {
+  width: 220px;
+  height: 59px;
+  background-color: #f76fc3;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-8deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present25 .vribbon, .present25 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present25 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #444040;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present25 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #444040;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present25 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present26 {
+  width: 220px;
+  height: 62px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(6deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present26 .vribbon, .present26 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present26 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present26 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present26 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present27 {
+  width: 220px;
+  height: 78px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-10deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present27 .vribbon, .present27 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present27 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present27 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present27 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present28 {
+  width: 220px;
+  height: 83px;
+  background-color: #a59d9d;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-10deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present28 .vribbon, .present28 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present28 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present28 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present28 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present29 {
+  width: 220px;
+  height: 70px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(5deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present29 .vribbon, .present29 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present29 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #f76fc3;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present29 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #f76fc3;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present29 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present30 {
+  width: 220px;
+  height: 66px;
+  background-color: #e5ce4b;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-9deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present30 .vribbon, .present30 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present30 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #444040;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present30 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #444040;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present30 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present31 {
+  width: 220px;
+  height: 51px;
+  background-color: #a59d9d;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-16deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present31 .vribbon, .present31 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present31 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present31 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present31 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present32 {
+  width: 220px;
+  height: 90px;
+  background-color: #a030cc;
+  margin: 1px;
+  position: relative;
+  transform: rotate(6deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present32 .vribbon, .present32 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present32 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #dd9933;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present32 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #dd9933;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present32 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present33 {
+  width: 220px;
+  height: 90px;
+  background-color: #f76fc3;
+  margin: 1px;
+  position: relative;
+  transform: rotate(1deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present33 .vribbon, .present33 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present33 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a030cc;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present33 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a030cc;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present33 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present34 {
+  width: 220px;
+  height: 60px;
+  background-color: #a030cc;
+  margin: 1px;
+  position: relative;
+  transform: rotate(6deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present34 .vribbon, .present34 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present34 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #4163ea;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present34 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #4163ea;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present34 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present35 {
+  width: 220px;
+  height: 73px;
+  background-color: #f76fc3;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-8deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present35 .vribbon, .present35 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present35 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #dd9933;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present35 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #dd9933;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present35 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present36 {
+  width: 220px;
+  height: 85px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-18deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present36 .vribbon, .present36 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present36 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #34c936;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present36 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #34c936;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present36 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present37 {
+  width: 220px;
+  height: 87px;
+  background-color: #f76fc3;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-17deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present37 .vribbon, .present37 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present37 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present37 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present37 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present38 {
+  width: 220px;
+  height: 85px;
+  background-color: #f76fc3;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-13deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present38 .vribbon, .present38 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present38 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #e5ce4b;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present38 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #e5ce4b;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present38 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present39 {
+  width: 220px;
+  height: 91px;
+  background-color: #a59d9d;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-19deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present39 .vribbon, .present39 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present39 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #f76fc3;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present39 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #f76fc3;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present39 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present40 {
+  width: 220px;
+  height: 73px;
+  background-color: #e5ce4b;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-8deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present40 .vribbon, .present40 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present40 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #cae550;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present40 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #cae550;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present40 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present41 {
+  width: 220px;
+  height: 96px;
+  background-color: #a030cc;
+  margin: 1px;
+  position: relative;
+  transform: rotate(0deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present41 .vribbon, .present41 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present41 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present41 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present41 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present42 {
+  width: 220px;
+  height: 91px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(5deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present42 .vribbon, .present42 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present42 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present42 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present42 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present43 {
+  width: 220px;
+  height: 70px;
+  background-color: #e5ce4b;
+  margin: 1px;
+  position: relative;
+  transform: rotate(6deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present43 .vribbon, .present43 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present43 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #e5ce4b;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present43 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #e5ce4b;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present43 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present44 {
+  width: 220px;
+  height: 54px;
+  background-color: #f76fc3;
+  margin: 1px;
+  position: relative;
+  transform: rotate(3deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present44 .vribbon, .present44 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present44 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present44 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present44 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present45 {
+  width: 220px;
+  height: 92px;
+  background-color: #a59d9d;
+  margin: 1px;
+  position: relative;
+  transform: rotate(7deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present45 .vribbon, .present45 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present45 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #34c936;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present45 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #34c936;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present45 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present46 {
+  width: 220px;
+  height: 55px;
+  background-color: #a030cc;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-3deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present46 .vribbon, .present46 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present46 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present46 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present46 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present47 {
+  width: 220px;
+  height: 76px;
+  background-color: #a030cc;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-18deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present47 .vribbon, .present47 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present47 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #e5ce4b;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present47 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #e5ce4b;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present47 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present48 {
+  width: 220px;
+  height: 51px;
+  background-color: #f76fc3;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-2deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present48 .vribbon, .present48 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present48 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #f76fc3;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present48 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #f76fc3;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present48 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present49 {
+  width: 220px;
+  height: 53px;
+  background-color: #a030cc;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-5deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present49 .vribbon, .present49 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present49 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #34c936;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present49 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #34c936;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present49 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present50 {
+  width: 220px;
+  height: 66px;
+  background-color: #a59d9d;
+  margin: 1px;
+  position: relative;
+  transform: rotate(10deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present50 .vribbon, .present50 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present50 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present50 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present50 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present51 {
+  width: 220px;
+  height: 79px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-4deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present51 .vribbon, .present51 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present51 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #e5ce4b;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present51 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #e5ce4b;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present51 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present52 {
+  width: 220px;
+  height: 63px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-14deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present52 .vribbon, .present52 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present52 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #dd9933;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present52 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #dd9933;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present52 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present53 {
+  width: 220px;
+  height: 71px;
+  background-color: #a030cc;
+  margin: 1px;
+  position: relative;
+  transform: rotate(2deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present53 .vribbon, .present53 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present53 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #4163ea;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present53 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #4163ea;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present53 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present54 {
+  width: 220px;
+  height: 55px;
+  background-color: #a030cc;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-4deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present54 .vribbon, .present54 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present54 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present54 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present54 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present55 {
+  width: 220px;
+  height: 77px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(1deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present55 .vribbon, .present55 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present55 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present55 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present55 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present56 {
+  width: 220px;
+  height: 66px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(5deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present56 .vribbon, .present56 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present56 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present56 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present56 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present57 {
+  width: 220px;
+  height: 86px;
+  background-color: #a030cc;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-15deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present57 .vribbon, .present57 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present57 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #cae550;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present57 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #cae550;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present57 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present58 {
+  width: 220px;
+  height: 73px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(1deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present58 .vribbon, .present58 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present58 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #cae550;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present58 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #cae550;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present58 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present59 {
+  width: 220px;
+  height: 75px;
+  background-color: #a030cc;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-15deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present59 .vribbon, .present59 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present59 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #34c936;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present59 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #34c936;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present59 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present60 {
+  width: 220px;
+  height: 74px;
+  background-color: #a030cc;
+  margin: 1px;
+  position: relative;
+  transform: rotate(0deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present60 .vribbon, .present60 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present60 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #4163ea;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present60 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #4163ea;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present60 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present61 {
+  width: 220px;
+  height: 61px;
+  background-color: #e5ce4b;
+  margin: 1px;
+  position: relative;
+  transform: rotate(6deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present61 .vribbon, .present61 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present61 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #cae550;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present61 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #cae550;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present61 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present62 {
+  width: 220px;
+  height: 73px;
+  background-color: #f76fc3;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-4deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present62 .vribbon, .present62 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present62 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #e5ce4b;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present62 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #e5ce4b;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present62 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present63 {
+  width: 220px;
+  height: 79px;
+  background-color: #a59d9d;
+  margin: 1px;
+  position: relative;
+  transform: rotate(10deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present63 .vribbon, .present63 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present63 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #444040;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present63 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #444040;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present63 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present64 {
+  width: 220px;
+  height: 52px;
+  background-color: #e5ce4b;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-5deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present64 .vribbon, .present64 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present64 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #444040;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present64 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #444040;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present64 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present65 {
+  width: 220px;
+  height: 89px;
+  background-color: #e5ce4b;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-1deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present65 .vribbon, .present65 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present65 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present65 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present65 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present66 {
+  width: 220px;
+  height: 99px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-4deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present66 .vribbon, .present66 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present66 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #444040;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present66 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #444040;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present66 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present67 {
+  width: 220px;
+  height: 74px;
+  background-color: #a030cc;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-7deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present67 .vribbon, .present67 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present67 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present67 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present67 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present68 {
+  width: 220px;
+  height: 79px;
+  background-color: #e5ce4b;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-4deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present68 .vribbon, .present68 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present68 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present68 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present68 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present69 {
+  width: 220px;
+  height: 94px;
+  background-color: #a030cc;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-15deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present69 .vribbon, .present69 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present69 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a030cc;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present69 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a030cc;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present69 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present70 {
+  width: 220px;
+  height: 68px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-4deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present70 .vribbon, .present70 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present70 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present70 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present70 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present71 {
+  width: 220px;
+  height: 87px;
+  background-color: #a59d9d;
+  margin: 1px;
+  position: relative;
+  transform: rotate(5deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present71 .vribbon, .present71 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present71 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present71 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present71 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present72 {
+  width: 220px;
+  height: 94px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-15deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present72 .vribbon, .present72 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present72 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #cae550;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present72 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #cae550;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present72 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present73 {
+  width: 220px;
+  height: 54px;
+  background-color: #a59d9d;
+  margin: 1px;
+  position: relative;
+  transform: rotate(4deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present73 .vribbon, .present73 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present73 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #cae550;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present73 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #cae550;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present73 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present74 {
+  width: 220px;
+  height: 71px;
+  background-color: #e5ce4b;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-14deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present74 .vribbon, .present74 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present74 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #cae550;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present74 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #cae550;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present74 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present75 {
+  width: 220px;
+  height: 99px;
+  background-color: #e5ce4b;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-4deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present75 .vribbon, .present75 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present75 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #4163ea;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present75 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #4163ea;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present75 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present76 {
+  width: 220px;
+  height: 69px;
+  background-color: #f76fc3;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-7deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present76 .vribbon, .present76 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present76 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present76 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present76 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present77 {
+  width: 220px;
+  height: 66px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-8deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present77 .vribbon, .present77 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present77 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present77 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present77 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present78 {
+  width: 220px;
+  height: 98px;
+  background-color: #e5ce4b;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-13deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present78 .vribbon, .present78 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present78 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #dd9933;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present78 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #dd9933;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present78 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present79 {
+  width: 220px;
+  height: 74px;
+  background-color: #a030cc;
+  margin: 1px;
+  position: relative;
+  transform: rotate(9deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present79 .vribbon, .present79 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present79 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #444040;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present79 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #444040;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present79 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present80 {
+  width: 220px;
+  height: 79px;
+  background-color: #f76fc3;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-10deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present80 .vribbon, .present80 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present80 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #dd9933;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present80 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #dd9933;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present80 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present81 {
+  width: 220px;
+  height: 60px;
+  background-color: #a59d9d;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-18deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present81 .vribbon, .present81 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present81 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #444040;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present81 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #444040;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present81 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present82 {
+  width: 220px;
+  height: 55px;
+  background-color: #a030cc;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-10deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present82 .vribbon, .present82 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present82 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #f76fc3;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present82 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #f76fc3;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present82 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present83 {
+  width: 220px;
+  height: 61px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-14deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present83 .vribbon, .present83 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present83 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present83 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present83 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present84 {
+  width: 220px;
+  height: 81px;
+  background-color: #f76fc3;
+  margin: 1px;
+  position: relative;
+  transform: rotate(4deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present84 .vribbon, .present84 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present84 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a030cc;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present84 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a030cc;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present84 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present85 {
+  width: 220px;
+  height: 53px;
+  background-color: #a030cc;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-8deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present85 .vribbon, .present85 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present85 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #e5ce4b;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present85 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #e5ce4b;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present85 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present86 {
+  width: 220px;
+  height: 54px;
+  background-color: #a030cc;
+  margin: 1px;
+  position: relative;
+  transform: rotate(4deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present86 .vribbon, .present86 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present86 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #e5ce4b;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present86 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #e5ce4b;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present86 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present87 {
+  width: 220px;
+  height: 66px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-8deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present87 .vribbon, .present87 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present87 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a030cc;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present87 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a030cc;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present87 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present88 {
+  width: 220px;
+  height: 55px;
+  background-color: #e5ce4b;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-12deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present88 .vribbon, .present88 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present88 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #cae550;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present88 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #cae550;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present88 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present89 {
+  width: 220px;
+  height: 79px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(1deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present89 .vribbon, .present89 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present89 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present89 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present89 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present90 {
+  width: 220px;
+  height: 73px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-9deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present90 .vribbon, .present90 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present90 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #e5ce4b;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present90 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #e5ce4b;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present90 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present91 {
+  width: 220px;
+  height: 82px;
+  background-color: #e5ce4b;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-14deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present91 .vribbon, .present91 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present91 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #f76fc3;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present91 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #f76fc3;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present91 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present92 {
+  width: 220px;
+  height: 89px;
+  background-color: #f76fc3;
+  margin: 1px;
+  position: relative;
+  transform: rotate(9deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present92 .vribbon, .present92 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present92 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present92 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #a59d9d;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present92 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present93 {
+  width: 220px;
+  height: 78px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-9deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present93 .vribbon, .present93 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present93 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #34c936;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present93 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #34c936;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present93 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present94 {
+  width: 220px;
+  height: 80px;
+  background-color: #e5ce4b;
+  margin: 1px;
+  position: relative;
+  transform: rotate(0deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present94 .vribbon, .present94 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present94 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #34c936;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present94 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #34c936;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present94 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present95 {
+  width: 220px;
+  height: 77px;
+  background-color: #f76fc3;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-8deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present95 .vribbon, .present95 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present95 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #cae550;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present95 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #cae550;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present95 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present96 {
+  width: 220px;
+  height: 65px;
+  background-color: #a030cc;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-7deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present96 .vribbon, .present96 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present96 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #e5ce4b;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present96 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #e5ce4b;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present96 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present97 {
+  width: 220px;
+  height: 70px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(5deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present97 .vribbon, .present97 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present97 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #cae550;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present97 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #cae550;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present97 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present98 {
+  width: 220px;
+  height: 57px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(8deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present98 .vribbon, .present98 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present98 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #e5ce4b;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present98 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #e5ce4b;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present98 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present99 {
+  width: 220px;
+  height: 68px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(-11deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present99 .vribbon, .present99 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present99 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present99 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #36bde2;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present99 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.present100 {
+  width: 220px;
+  height: 58px;
+  background-color: #444040;
+  margin: 1px;
+  position: relative;
+  transform: rotate(1deg);
+  box-shadow: 0px 20px 30px rgba(255, 255, 0, 0.5);
+}
+.present100 .vribbon, .present100 .hribbon {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.present100 .vribbon {
+  width: 15%;
+  height: 100%;
+  background-color: #dd9933;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.present100 .hribbon {
+  width: 100%;
+  height: 15%;
+  background-color: #dd9933;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.present100 .cap {
+  height: 15%;
+  width: calc(100% + 10px);
+  transform: translateX(-5px);
+  background-color: #f00;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.scene {
+  width: 230px;
+  height: 200px;
+  background-image: url(https://i.imgur.com/3dGP7GR.jpg) 0 90% no-repeat;
+  background-size: cover;
+  background-size: 500% 400%;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  transition: background-position 15s linear;
+  background-position: 150% 90%;
+}
+.scene .mario {
+  width: 65px;
+  height: 100px;
+}
+
+body {
+  position: relative;
+}
+body .hairs {
+  position: relative;
+}
+body .hairs .hair1 {
+  width: 150px;
+  height: 80px;
+  border-radius: 40px;
+  background-color: #fff;
+  box-shadow: inset -10px -10px rgba(0, 0, 0, 0.1);
+  background-color: #c10d0d;
+  margin-left: 10px;
+  position: relative;
+}
+body .hairs .hair2 {
+  width: 150px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: #fff;
+  box-shadow: inset -10px -10px rgba(0, 0, 0, 0.1);
+  margin-left: 50px;
+  margin-top: -40px;
+  margin-color: #58b208;
+}
+body .hairs .hair3 {
+  width: 150px;
+  height: 70px;
+  border-radius: 35px;
+  background-color: #fff;
+  box-shadow: inset -10px -10px rgba(0, 0, 0, 0.1);
+  margin-left: 5px;
+  margin-top: -45px;
+}
+body .body {
+  width: 210px;
+  height: 120px;
+  border-radius: 40px;
+  margin-top: -40px;
+  padding-top: 50px;
+  background-color: #4c4747;
+  box-shadow: inset -10px -10px 0px rgba(0, 0, 0, 0.1);
+  transition: 0.5s, background-color 4s 1s;
+}
+body .body .eyes .eye {
+  width: 50px;
+  height: 25px;
+  border-radius: 12.5px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 15px;
+  background-color: #fff;
+}
+body .body .eyes .eye .eyeball {
+  width: 25px;
+  height: 25px;
+  border-radius: 12.5px;
+  background-color: #58b208;
+}
+body .body .mouth {
+  width: 70px;
+  height: 25px;
+  border-radius: 12.5px;
+  background-color: #58b208;
+  margin-left: 70px;
+  margin-top: 15px;
+}
+body .body .mouth .food {
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+  margin-left: -40px;
+  background-color: #4c4747;
+}
+
+.scene:hover .title {
+  opacity: 1;
+}
+.scene:hover .person {
+  margin-top: 50px;
+}
+.scene:hover .person .body {
+  box-shadow: inset -10px -10px 0px rgba(0, 0, 0, 0.1), 30px 10px rgba(0, 0, 0, 0.1);
+}
+.scene:hover .person:hover {
+  transform: translateX(40px);
+}
+.scene:hover .person:hover .eye {
+  transform: translateX(40px);
+}
+.scene:hover .person:hover .eyeball {
+  transform: translateX(25px);
+}
+.scene:hover .person:hover .mouth {
+  transform: translateX(20px);
+}
+.scene:hover .person:hover .body {
+  box-shadow: inset -10px -10px 0px rgba(0, 0, 0, 0.1), -30px 10px rgba(0, 0, 0, 0.1);
+  background-color: #c10d0d;
+}
+.scene:hover .person:hover .message {
+  opacity: 1;
+}
+
+.scene:active .question {
+  display: block;
+}
+.scene:active .person {
+  transform: scale(0.9);
+}
+.scene:active .person .hairs {
+  transform: translateY(-50px);
+}
